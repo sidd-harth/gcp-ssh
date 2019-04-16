@@ -1,7 +1,6 @@
 
 //host configuration with connection settings and commands
 console.log('asdsdasd');
-console.log(privateKey.ppk);
             
 var host = {
  server:        {     
