@@ -9,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "ssh2shell":"*",
-    "fs":"*"
+    "fs":"*",
+    "ssh2":"*"
   }
 }
