@@ -4,7 +4,7 @@ var host = {
   host: '35.244.5.62',
   port: 22,
   userName: 'sid',
-  privateKey: require('fs').readFileSync('/key/privateKey.ppk'),
+  privateKey: require('fs').readFileSync('privateKey.ppk'),
   },
  commands:      [ "echo $(pwd)", "sudo mkdir abcdeer" ]
 };
