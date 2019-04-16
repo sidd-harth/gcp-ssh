@@ -1,14 +1,14 @@
 
 //host configuration with connection settings and commands
 console.log('asdsdasd');
-console.log('/privateKey.ppk');
+console.log(privateKey.ppk);
             
 var host = {
  server:        {     
   host: '35.244.5.62',
   port: 22,
   userName: 'sid',
-  privateKey: require('fs').readFileSync('/id_rsa'),
+  privateKey: require('fs').readFileSync('id_rsa'),
   },
  commands:      [ "echo $(pwd)", "sudo mkdir abcdeer" ]
 };
