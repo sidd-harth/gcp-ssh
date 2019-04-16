@@ -4,12 +4,12 @@
   "description": "",
   "scripts": {
     "start": "node index.js"
-},
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ssh2shell":"*",
-    "fs":"*",
-    "ssh2":"*"
+    "ssh2shell": "*",
+    "fs": "*",
+    "ssh2": "*"
   }
 }

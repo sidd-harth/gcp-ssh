@@ -6,11 +6,11 @@ var host = {
  server:        {     
   host: '35.244.5.62',
   port: 22,
-  userName: 'sid',
-  privateKey: require('fs').readFileSync('id_rsa'),
+  userName: 'onlineman47',
+  privateKey: require('fs').readFileSync('id_rsa_onlineman47'),
   },
  //commands:      [ "echo $(pwd)", "sudo mkdir abcdeer" ]
-   commands: ["sudo -s", "export PATH=$PATH:/home/openshift-origin-client-tools-v3.9.0-191fece-linux-64bit", "oc version", "oc cluster down", "oc cluster up" ]
+   commands: ["sudo -s", "export PATH=$PATH:/home/openshift-origin-client-tools-v3.9.0-191fece-linux-64bit", "oc version", "oc apply -f /home/services2/aio/istio/pay.yml" ]
 };
  
 var SSH2Shell = require ('ssh2shell'),
