@@ -43,5 +43,5 @@ conn.on('ready', function() {
   host: '35.244.5.62',
   port: 22,
   username: 'sid',
-  privateKey: '/privateKey.ppk'
+  privateKey: '/id_rsa'
 });
