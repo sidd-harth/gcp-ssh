@@ -1,4 +1,4 @@
-/*
+
 //host configuration with connection settings and commands
 var host = {
  server:        {     
@@ -20,9 +20,8 @@ var SSH2Shell = require ('ssh2shell'),
 //Start the process
 SSH.connect(callback);
 
-*/
 
-
+/*
 var Client = require('ssh2').Client;
  
 var conn = new Client();
@@ -45,3 +44,4 @@ conn.on('ready', function() {
   username: 'sid',
   privateKey: '/id_rsa'
 });
+*/
