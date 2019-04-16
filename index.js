@@ -10,7 +10,7 @@ var host = {
   privateKey: require('fs').readFileSync('id_rsa'),
   },
  //commands:      [ "echo $(pwd)", "sudo mkdir abcdeer" ]
-   commands: ["cd /home/openshift-origin-client-tools-v3.10.0-dd10d17-linux-64bit", "export PATH=$PATH:$(pwd)", "sudo oc version" ]
+   commands: ["sudo -i", "export PATH=$PATH:/home/openshift-origin-client-tools-v3.10.0-dd10d17-linux-64bit", "oc version" ]
 };
  
 var SSH2Shell = require ('ssh2shell'),
