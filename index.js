@@ -6,7 +6,7 @@ var host = {
   userName: 'sid',
   privateKey: require('fs').readFileSync('/key/privateKey.ppk'),
   },
- commands:      [ "echo $(pwd)", "mkdir abcdeer" ]
+ commands:      [ "echo $(pwd)", "sudo mkdir abcdeer" ]
 };
  
 var SSH2Shell = require ('ssh2shell'),
