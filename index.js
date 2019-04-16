@@ -5,7 +5,7 @@ var host = {
   host: '35.244.5.62',
   port: 22,
   userName: 'sid',
-  privateKey: '/id_rsa',
+  privateKey: 'id_rsa',
   },
  commands:      [ "echo $(pwd)", "sudo mkdir abcdeer" ]
 };
